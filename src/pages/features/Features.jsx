@@ -31,36 +31,36 @@ export default Features;
 const featuresPhotos = [
   {
     photo: "/img-1.webp",
-    alt: "sem gaiolas e sem correntes",
+    alt: "Limpeza de tapetes",
   },
   {
-    photo: "/img-1.webp",
-    alt: "sem gaiolas e sem correntes",
+    photo: "/img-2.webp",
+    alt: "Limpeza de sofas",
   },
   {
-    photo: "/img-1.webp",
-    alt: "sem gaiolas e sem correntes",
+    photo: "/img-3.webp",
+    alt: "Limpeza de pisos",
   },
 ];
 const featuresText = [
   {
-    title: "Acomodações",
+    title: "Limpeza de Colchões",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    title: "Acomodações",
+    title: "Limpeza de Sofás",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    title: "Acomodações",
+    title: "Limpeza de Tapetes",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    title: "Acomodações",
+    title: "Limpeza de Pisos",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    title: "Acomodações",
+    title: "Impermeabilização",
     alt: "sem gaiolas e sem correntes",
   },
 ];

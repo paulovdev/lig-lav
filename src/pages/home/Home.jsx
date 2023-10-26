@@ -6,7 +6,9 @@ const Home = () => {
     <>
       <section id="home">
         <main>
-          <h1>LIG LAV LAVAGEM©</h1>
+          <h1>
+            LIG LAV LAVAGEM <span>©</span>
+          </h1>
           <p>
             Somos uma verdadeira lavanderia em domicílio, com produtos de otima
             qualidade.

@@ -1,6 +1,4 @@
 import React from "react";
-import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
-import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -11,47 +9,43 @@ const Footer = () => {
           <p>Precisa de um orçamento? Fale conosco!</p>
           <div className="contact" id="contact">
             <p>
-              Telefone: <a href="tel:98845-2064">(15) 98845-2064</a>
+              Telefone: <a href="tel:98845-2064">(22)998524145</a>
             </p>
             <p>
-              E-mail:{" "}
-              <a href="mailto:elianepiresdecamargo@gmail.com">
-                elianepiresdecamargo@gmail.com
+              Instagram:{" "}
+              <a href="https://www.instagram.com/liglav" target="_blank">
+                @liglav
               </a>
             </p>
-            <div className="socials">
-              <FaFacebookSquare size={40} />
-              <AiFillInstagram size={50} />
-              <AiFillTwitterSquare size={50} />
-            </div>
+            <p>
+              Facebook:{" "}
+              <a href="https://www.facebook.com/LAVAGEMSECOCF" target="_blank">
+                LigLav
+              </a>
+            </p>
           </div>
         </section>
 
-        <address>
+        <address className="right">
           <div className="map">
             <div className="gmap_canvas">
               <iframe
                 className="gmap_iframe"
                 width="100%"
-                height="289"
-                frameBorder="0"
+                height="400"
+                frameborder="0"
                 scrolling="no"
-                marginHeight="0"
-                marginWidth="0"
-                src="https://maps.google.com/maps?width=358&amp;height=289&amp;hl=en&amp;q=nezel+terezinha+fernandes,42&amp;t=p&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=cabo frio&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
-              <a href="https://connectionsgame.org/">Connections NYT</a>
+              <a href="https://connectionsgame.org/">Connections Unlimited</a>
             </div>
             <style>
-              {`
-          .mapouter{position:relative;text-align:right;width:100%;height:289px;}
-          .gmap_canvas {overflow:hidden;background:none!important;width:100%;height:289px;}
-          .gmap_iframe {height:289px!important;}
-        `}
+              {`.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}`}
             </style>
           </div>
         </address>
-
       </footer>
     </>
   );
