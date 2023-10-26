@@ -16,7 +16,7 @@ const Home = () => {
               Conheça
             </Link>
           </button>
-          <img src="/background-home.png" alt="" />
+          <img src="/background-home.webp" alt="" />
         </main>
       </section>
     </>

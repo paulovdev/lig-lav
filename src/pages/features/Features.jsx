@@ -30,15 +30,15 @@ const Features = () => {
 export default Features;
 const featuresPhotos = [
   {
-    photo: "/img-1.png",
+    photo: "/img-1.webp",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    photo: "/img-1.png",
+    photo: "/img-1.webp",
     alt: "sem gaiolas e sem correntes",
   },
   {
-    photo: "/img-1.png",
+    photo: "/img-1.webp",
     alt: "sem gaiolas e sem correntes",
   },
 ];
