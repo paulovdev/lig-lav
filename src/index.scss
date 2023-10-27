@@ -67,7 +67,7 @@ header {
                 &:nth-child(3) {
                     background-color: #0092df;
                     padding: 0.4rem 1rem;
-                    border-radius: 0.2rem;
+                    border-radius: 0.5rem;
                     a {
                         color: #ffffff;
                     }
@@ -162,7 +162,7 @@ header {
         }
         button {
             width: 140px;
-            padding: 1rem;
+            padding: 0.6rem;
             background-color: #0092df;
             border-radius: 0.5rem;
             color: #fff;
@@ -342,6 +342,7 @@ header {
                 img {
                     width: 300px;
                     height: 300px;
+                    border-radius: 1rem;
                 }
             }
         }
